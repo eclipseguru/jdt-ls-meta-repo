@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "eclipse.jdt.core": "git@github.com:eclipseguru/eclipse.jdt.core.git",
+    "eclipse.jdt.debug": "git@github.com:eclipseguru/eclipse.jdt.debug.git",
+    "eclipse.jdt.ui": "git@github.com:eclipseguru/eclipse.jdt.ui.git",
+    "eclipse.jdt.ls": "git@github.com:eclipseguru/eclipse.jdt.ls.git",
+    "bazel-eclipse": "git@github.com:eclipseguru/bazel-eclipse.git"
+  }
+}
