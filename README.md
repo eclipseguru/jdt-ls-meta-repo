@@ -1,6 +1,6 @@
 # Meta Repository for Bazel and Java LS development
 
-To get started:
+## Getting Started
 ```
 # install meta command
 npm i -g meta
@@ -13,3 +13,20 @@ cd jdt-ls-meta-repo
 make setup
 ```
 
+* The `master` branch represents the latest on all involved repositories.
+* The `origin` repository is actually a fork itself so 
+
+A remote `upstream` is setup to point to the upstream repository.
+
+## Development Workflows
+
+### Refresh master from upstream
+```
+meta git fetch upstream
+meta git pull 
+```
+
+### Create feature branch
+```
+meta git checkout -b <username>/feature
+```

@@ -7,6 +7,8 @@ install-tools:
 
 setup-upstream:
 	printf "%s\n" "Setting up upstream..."
+	-git remote remove upstream 2>/dev/null ||:
+	git remote add upstream git@github.com:eclipseguru/jdt-ls-meta-repo.git -m master
 	-cd eclipse.jdt.core && git remote remove upstream 2>/dev/null ||:
 	cd eclipse.jdt.core && git remote add upstream git@github.com:eclipse-jdt/eclipse.jdt.core.git -m master
 	-cd eclipse.jdt.debug && git remote remove upstream 2>/dev/null ||:
